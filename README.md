@@ -3,6 +3,10 @@
 In this code, TB hamiltonian is stored in a dict called HR.hr.
 All rvectors as key.
 
+For the format of wannier90_hr.dat, please refer to the Wannier90 user guide.
+Can be accessed here:  https://github.com/wannier-developers/wannier90/raw/v3.1.0/doc/compiled_docs/user_guide.pdf
+
+
 Delete most of the functions in the original code.
 Only keeping (and revising) these:
     1. read HR to a dict
